@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         APP_NAME = "identityserver" 
-        IMAGE_TAG = "identityserver:latest"
+        IMAGE_TAG = "latest"
     }
 
     stages {        
