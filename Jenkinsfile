@@ -10,7 +10,7 @@ pipeline {
             steps {
                 script {
                     echo "Docker Image oluşturuluyor..."
-                    sh "docker build -t ${APP_NAME}:${IMAGE_TAG} ."
+                    sh "docker build -f IdentityServer/Dockerfile -t ${APP_NAME}:${IMAGE_TAG} ."
                 }
             }
         }
