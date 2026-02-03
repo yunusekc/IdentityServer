@@ -22,7 +22,7 @@ namespace IdentityServer
             new ApiResource("api2", "My API 2")
             {
                 Scopes = { "api2.read", "api2.write" }
-            }
+            } 
         };
 
         // API için Kullanıcı Yetkilendirmesi
