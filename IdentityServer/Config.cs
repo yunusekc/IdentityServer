@@ -15,7 +15,7 @@ namespace IdentityServer
         public static IEnumerable<ApiResource> ApiResources =>
         new List<ApiResource>
         {
-            new ApiResource("api1", "My API 1")
+            new ApiResource("api1", "My API 1") 
             {
                 Scopes = { "api1.read", "api1.write" }
             },
